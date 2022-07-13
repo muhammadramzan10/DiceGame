@@ -67,7 +67,7 @@ rollDice.addEventListener("click", function(){
         let player1RandomArray = []
         for (let i = 0; i < 5; i++){
             player1RandomArray.push(getRandomNumber())
-            player1Score += player1RandomArray[i] 
+            player1Score += (player1RandomArray[i] + 1)
         }
         player1DiceBox1.innerHTML = `<img src=${imgArray[player1RandomArray[0]]} alt="">`
         player1DiceBox2.innerHTML = `<img src=${imgArray[player1RandomArray[1]]} alt="">`
@@ -93,7 +93,7 @@ rollDice.addEventListener("click", function(){
         let player2RandomArray = []
         for (let i = 0; i < 5; i++){
             player2RandomArray.push(getRandomNumber())
-            player2Score += player2RandomArray[i] 
+            player2Score += (player2RandomArray[i] + 1)
         }
         player2DiceBox1.innerHTML = `<img src=${imgArray[player2RandomArray[0]]} alt="">`
         player2DiceBox2.innerHTML = `<img src=${imgArray[player2RandomArray[1]]} alt="">`
