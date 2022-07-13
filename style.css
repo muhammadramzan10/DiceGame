@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    background: linear-gradient(135deg,#a8e6cf,#dcedc1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+.container{
+    width: 800px;
+    height: 600px;
+    background: linear-gradient(to top right, rgba(255,255,255,0.3), rgba(255,255,255,0.8));
+    border-radius: 10px;
+}
+
+.sub-container1{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.for-rules{
+    position: absolute;
+    top: 20%;
+    right: 0;
+    margin-right: 25%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #a8e6cf;
+}
+
+.rules-info{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+
+}
+
+.model{
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+.close-btn{
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #a8e6cf;
+
+}
+#message{
+    margin: 0 auto;
+}
+.players{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.player1,
+.player2 {
+    width: 320px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dice-box{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    border-radius: 3px;
+}
+.active{
+    box-shadow: 0 1px 2px 1px;
+}
+
+
+img{
+    height: 60px;
+    border-radius: 5px;
+}
+
+.rollbutton{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #a8e6cf;
+    color: white;
+    font-weight: bold;
+    
+}
+.sub-container2{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.winnerMessage{
+    display: none;
+    width: 500px;
+    text-align: center;
+
+}
+.resetbutton{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 30px;
+    background-color: #a8e6cf;
+    color: white;
+    font-weight: bold;
+    display: none;
+}
+

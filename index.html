@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiceGame</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="sub-container1">
+            <button id="rules" class="for-rules">Rules!</button>
+            <div id="visible" class="rules-info">
+                <div class="model">
+                    <p>This Game includes "5 Dices" <br> so 5 x 20 = 100</p>
+                    <h3>First player to reach 100, Wins!</h3>
+                    <h2>Good Luck!!</h2>
+                    <button id="close" class="close-btn">Close</button>
+                </div>
+                
+            </div>
+            <h2 id="message">Player 1 Turn</h2>
+
+            <div id="all-players" class="players">
+
+
+                <div class="player1">
+                    <p class="score"> Score: <span id="player1-score">0</span></p>
+
+                    <div class="dice-box">
+                        <div id="player1-dice-box1" class="box active"><img src="dice/1.png" alt=""></div>
+                        <div id="player1-dice-box2" class="box active"><img src="dice/1.png" alt=""></div>
+                        <div id="player1-dice-box3" class="box active"><img src="dice/1.png" alt=""></div>
+                        <div id="player1-dice-box4" class="box active"><img src="dice/1.png" alt=""></div>
+                        <div id="player1-dice-box5" class="box active"><img src="dice/1.png" alt=""></div>
+                    </div>
+                    
+                </div>
+
+
+                <div class="player2">
+                    <p class="score"> Score: <span id="player2-score">0</span></p>
+
+                    <div class="dice-box">
+                        <div id="player2-dice-box1" class="box"><img src="dice/1.png" alt=""></div>
+                        <div id="player2-dice-box2" class="box"><img src="dice/1.png" alt=""></div>
+                        <div id="player2-dice-box3" class="box"><img src="dice/1.png" alt=""></div>
+                        <div id="player2-dice-box4" class="box"><img src="dice/1.png" alt=""></div>
+                        <div id="player2-dice-box5" class="box"><img src="dice/1.png" alt=""></div>
+                    </div>
+
+                </div>
+                
+
+
+            </div>
+
+            <div id="finaltext" class="winnerMessage">
+                <h3>Congratulations, <span id="winner"></span> you won the game scoring <span id="winner-score"></span> !<br>  🎊🎉🥳</h3>
+            </div>
+
+            <div class="btn">
+                <button id="roll-btn" class="rollbutton">Roll Dice 🎲</button>
+                <button id="reset-btn" class="resetbutton ">Reset 🔁</button>
+            </div>
+            
+            
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
